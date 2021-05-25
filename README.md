@@ -2,7 +2,7 @@
 
 <p> You need to download this repository and should have docker and django installed on your local system. </p>
 <p> Then run the following commands on your local system to host both the servers. Note the mysite is the server 1 and server 2 is the server 2. </p>
-```
+```console
 $ cd mysite
 $ sudo docker build -t polls -f Dockerfile .
 $ sudo docker run -itd --net host polls
